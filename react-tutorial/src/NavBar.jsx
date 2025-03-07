@@ -1,6 +1,6 @@
-export const NavBar = () => {
+export function NavBar() {
   return (
-    <div>
+    <div name="NavBar">
       {/*Push the button groups to either side */}
       <div style={{ display: "flex", flexDirection: "row" }}>
         <div>
